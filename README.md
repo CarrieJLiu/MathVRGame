@@ -1,4 +1,4 @@
 # MathVRGame
 # MathVRGame
 
-## V0.06.0
+## V0.06.1
