@@ -1,0 +1,62 @@
+
+<!-- This is a survry page to collect customer information -->
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- this is used to collect user input-->
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="Jiali"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Liu"><br><br>
+  </form> 
+  
+
+<!--This is Drop-down Menu with three different items -->
+<form action="/action_page.php">
+<strong>Type Of Shirt：</strong>
+<select id="shirt" name="shirt" size="1" mutiple>
+<option value="sleeveless">sleeveless</option>
+<option value="blouse">blouse</option>
+<option value="baseball ">baseball </option>
+</select><br><br>
+</form>
+
+<!--Radid Buttons with three sizes -->
+ <strong>size:</strong>
+ <input type="radio" id="large" name="size" value="Large">
+ <label for="large">Large</label>
+ <input type="radio" id="medium" name="size" value="Medium">
+ <label for="medium">Medium</label>
+ <input type="radio" id="small" name="size" value="Small">
+ <label for="small">Small</label>
+
+<br><br>
+
+<!--Check boxes with three colours -->
+<strong>Colour: </strong>
+
+  <input type="checkbox" id="colour1" name="colour1" value="Red">
+  <label for="colour1"> Red</label>
+  <input type="checkbox" id="colour2" name="colour2" value="Navy">
+  <label for="colour2"> Navy</label>
+  <input type="checkbox" id="colour3" name="colour3" value="Black">
+  <label for="colour3"> Black</label>
+
+<br><br>
+
+<!--Text Area with 4 rows and 40 cloumns -->
+<p>comment?</p>
+
+<form action="/action_page.php">
+  <textarea name="message" rows="4" cols="40">
+</textarea>
+  <br><br>
+  <button type="button" onclick="buy">Buy Now!</button>
+  <button type="button" onclick="reset">reset</button>
+
+</form>
+
+</body>
+</html>

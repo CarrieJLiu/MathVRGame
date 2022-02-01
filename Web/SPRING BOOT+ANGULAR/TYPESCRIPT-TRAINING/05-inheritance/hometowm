@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- title -->
+  	  <title>Welcome to my hometown</title>
+
+    	 <meta charset=" UTF -8" />
+
+
+</head>
+
+<body>
+<!-- an "h1" level header -->
+    <h1>welcome to my hometown!</h1>
+
+<!-- image of my hometown -->
+<img src="U9971P704DT20160325151409.jpg" alt="NX">
+
+<!-- a level h2 for email -->
+    <h2>liu00523@algonquinlive.com</h2>
+
+<!-- ordered list for city information -->
+    <h2>City Information</h2>
+    <ol>
+        <li>Province:Ningxia
+        <li>City:Yinchuan
+        <li>Population:2859074
+        <li>Mayor:Yujin Yang
+    </ol>
+    <p>.Yinchuan is located in northwest China, the middle of ningxia plain, east of erdos west edge, west according to helan Mountain, the Yellow River through the city, is the ancient Silk Road trade town, Ningxia's military, political, economic, cultural, scientific research, transportation and financial center</p>
+   
+<!-- unordered list for specialty-->
+    <h2>specialty</h2>
+    <ul>
+        <li>gouji
+        <li>mutton
+    </ul>
+
+</body>
+
+</html>
