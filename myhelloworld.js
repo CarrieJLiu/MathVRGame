@@ -1,0 +1,10 @@
+console.log("hello world");
+console.log("coding furus!" + "time for some fun!");
+var found = true;
+var grade = 88;
+var firstName = "ad";
+var lastName = 'sd';
+console.log(found);
+console.log("the grade is " + grade);
+console.log("hi" + firstName + " " + lastName);
+console.log('Hi ${firstName} ${lastName}');
