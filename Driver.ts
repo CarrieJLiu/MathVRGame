@@ -1,7 +1,12 @@
-import { Customer } from "./Customer";
+import {Shape} from './Shape';
+import { Circle } from './Circle';
+import { Rectangle } from './Rectangle';
 
-// let's create an instance
-let myCustomer = new Customer("Martin", "Dixon");
+let myShape = new Shape(10, 15);
+console.log(myShape.getInfo());
 
-console.log(myCustomer.firstName);
-console.log(myCustomer.lastName);
+let myCircle = new Circle(5,10, 20);
+console.log(myCircle.getInfo());
+
+let myRectangle = new Rectangle(0,0,3,7);
+console.log(myRectangle.getInfo());
