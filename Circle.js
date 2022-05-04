@@ -7,6 +7,9 @@ class Circle extends Shape_1.Shape {
         super(theX, theY);
         this._radius = _radius;
     }
+    calculateArea() {
+        return Math.PI * Math.pow(this._radius, 2);
+    }
     get radius() {
         return this._radius;
     }

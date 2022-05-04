@@ -8,6 +8,9 @@ class Rectangle extends Shape_1.Shape {
         this._width = _width;
         this._length = _length;
     }
+    calculateArea() {
+        return this._width * this._length;
+    }
     get width() {
         return this._width;
     }
