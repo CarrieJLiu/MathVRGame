@@ -1,39 +1,16 @@
- export class Customer {
-     
+class Customer{
+    firstName:string;
+    lastName:string;
 
-     constructor( private _firstName: string, private _lastName: string) {
-     }
-
-     public get firstName(): string {
-         return this._firstName;
-     }
-
-     public set firstName(value: string) {
-         this._firstName = value;
-     }
-     
-     public get lastName(): string {
-        return this._lastName;
+    constructor(theFirst:string,theLast:string){
+        this.firstName = theFirst;
+        this.lastName = theLast;
     }
-    public set lastName(value: string) {
-        this._lastName = value;
-    }
- }
-
- //create an instance
-
-
-/*
-class Customer {
-    firstName: string;
-    lastName: string;
 }
 
-let myCustomer = new Customer();
+let myCustomer = new Customer("sefuheif","dfsadf");
 
-myCustomer.firstName = "Jiali";
-myCustomer.lastName = "Liu";
+
 
 console.log(myCustomer.firstName);
-console.log(myCustomer.lastName0;)
-*/
+console.log(myCustomer.lastName);
