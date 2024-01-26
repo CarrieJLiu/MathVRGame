@@ -6,7 +6,7 @@ let myCircle = new Circle_1.Circle(5, 10, 20);
 let myRectangle = new Rectangle_1.Rectangle(0, 0, 3, 7);
 //declare an array of shapes ... initinally emputy
 let theShapes = [];
-//add the shapes to the array
+
 theShapes.push(myCircle);
 theShapes.push(myRectangle);
 for (let tempShape of theShapes) {
